@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+background-color: burlywood;
+
+}
+
+body h2 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+header {
+    border: solid;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Portadaimg {
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.nav {
+    
+    background-color:black;
+    margin-right: 50px;
+    width: 400px;
+    height: 50px;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+.nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+.banner {
+   
+    background-color: burlywood;
+    text-align: center;
+
+}
+
+.banner h2 {
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+.banner p {
+    font-size: 30px;
+}
+
+.boton {
+    align-items: center;
+    height: 100px;
+     display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.boton button {
+    background-color: darkblue;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    border: solid;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.container {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: burlywood;
+    align-items: center;
+    border: solid;
+}
+
+.img {
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+.peli {
+    margin-left: 30px;
+
+}
+
+.peli p {
+    width: 800px;
+
+
+}
+
+.boton1 {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+
+}
